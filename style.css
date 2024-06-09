@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background-color: #FAFAFA;
+     ;
+}
+
+.large_text{
+    font-size: 65px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+
+}
+
+/* Line Area style*/
+.container {
+     position: relative;
+ }
+ .row {
+     position: relative;
+ }
+ .content {
+     padding: 20px;
+     text-align: center;
+ }
+ .vertical-line {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     width: 1px;
+     background-color: #9A9CA5;
+     left: 50%; /* Adjust to the desired position */
+     margin-left: -1px; /* Center the line */
+ }
+
+
+ /*Line Area Style2*/
+ .container2 {
+     position: relative;
+ }
+ .row {
+     position: relative;
+ }
+ .content2 {
+     padding: 20px;
+     text-align: center;
+ }
+ .vertical-line2 {
+     position: absolute;
+     height: 100px;
+     bottom: 0;
+     width: 1px;
+     background-color: #9A9CA5;
+     left: 50%; 
+     margin-left: -1px; 
+ }
+
+
+ /*Line Area Style3*/
+
+ .container3 {
+    position: relative;
+}
+.row {
+    position: relative;
+}
+.content3 {
+    padding: 20px;
+    text-align: center;
+}
+.vertical-line3 {
+    position: absolute;
+    height: 180px;
+    top: 0;
+    width: 1px;
+    background-color: #9A9CA5;
+    left: 50%; 
+    margin-left: -1px; 
+}
+
+
+/*Only Ball Style*/
+ .ball_h{
+     position: absolute;
+     left: 49.44%;
+     top: 73%;
+     bottom: 20px;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background-color: #F44335; 
+     z-index: 1;
+ }
+
+
+ .ball_b{
+     position: absolute;
+     left: 49.2%;
+     top: 25%;
+     bottom: 20px;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background-color: #F44335; 
+     z-index: 1;
+ }
+
+ .ball_d{
+     position: absolute;
+     left: 49.2%;
+     top: 25%;
+     bottom: 20px;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background-color: #F44335; 
+     z-index: 1;
+ }
+ .ball_bb{
+     position: absolute;
+     left: 49.2%;
+     top: 25%;
+     bottom: 20px;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background-color: #F44335; 
+     z-index: 1;
+ }
+ .ball_w{
+     position: absolute;
+     left: 49.2%;
+     top: 25%;
+     bottom: 20px;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background-color: #F44335; 
+     z-index: 1;
+ }
+
+ .ball_t{
+     position: absolute;
+     left: 49.2%;
+     top: 25%;
+     bottom: 20px;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background-color: #F44335; 
+     z-index: 1;
+ }
+
+ .ball_l{
+     position: absolute;
+     left: 49.2%;
+     top: 25%;
+     bottom: 20px;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background-color: #F44335; 
+     z-index: 1;
+ }
+
+
+
+
+ 
+ @media (max-width: 600px){  
+.vertical-line {
+    display: none; 
+}
+
+.vertical-line2 {
+    display: none;  
+}
+
+.vertical-line3 {
+   display: none; 
+}
+
+.ball_h{
+   display: none;
+}
+
+.ball_b{
+    display: none;
+}
+
+.ball_d{
+    display: none;
+}
+.ball_bb{
+    display: none;
+}
+.ball_w{
+    display: none;
+}
+
+.ball_t{
+    display: none;
+}
+
+.ball_l{
+    display: none;
+}
+ }
